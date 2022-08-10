@@ -16,6 +16,12 @@
 // }
 // const foo = aveNumbers.reduce(aver);
 // console.log(foo/9);
+// function aver(array){
+//        return array.filter((total)=>{
+//               return total<10;
+//        })
+//      }
+// console.log(aver(aveNumbers));
 
 // function area(num1, num2){
 //     return num1*num2;
@@ -32,7 +38,7 @@
 // function isModulas(){
 //     for(let i = 1; i <= 100; i++){
 //         const modify = i;
-//         if(modify % 3 === 0 && modify % 5 === 0){
+//         if(modify % 3 === 0){
 //            console.log(modify);
 //         }
 //     }
@@ -43,11 +49,31 @@
 // একটা ফাংশন লিখো। সেই ফাংশনের মধ্যে ইনপুট হিসেবে একটা array নিবে। সেই array এর মধ্যে অনেকগুলা সংখ্যা থাকবে। তোমার কাজ হবে ইনপুট নেয়া array এর মধ্যে যতগুলা সংখ্যা আছে। সেই সংখ্যা গুলার গড় বের করবে।
 //  তারপর সেই গড় ফাংশনের রিটার্ন হিসেবে দিয়ে দিবে।
 
-const aveNumbers =[21, 10, 2, 4, 57, 40, 97, 17, 68];
+// const aveNumbers =[21, 10, 2, 4, 57, 40, 97, 17, 68];
+// function averageNum(numbers){
+//      let result = 0;
+//      for(let i = 0; i < numbers.length; i++){
+//             result +=numbers[i];
 
-function averageNum(numbers){
-     for(let i = 0; i < numbers.length; i++){
-        
-     }
-}
-const int = averageNum(aveNumbers);
+//      }
+//      const avagr = result / numbers.length;
+//      return avagr;
+   
+// }
+
+// const abc = averageNum(aveNumbers);
+// console.log(abc);
+
+
+// কোন একটা সংখ্যা প্রাইম সংখ্যা (prime number) কিনা। 
+// সেটা চেক করার একটা ফাংশন লিখো।
+
+
+// function isPrime(number){
+//     if(number % 2 === 0){
+//         return true;
+//     }
+//     return false;
+// }
+// const theNumbar = isPrime(11);
+// console.log(theNumbar);
