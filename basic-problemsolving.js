@@ -98,3 +98,33 @@
 //    const result = compare('25', '25');
 //    console.log(result);
 
+
+// advence version of decler by loop
+
+// const someArrays =[
+//     {id:1, name: 'poco x2 phone', price: 20000},
+//     {id:2, name: 'HP leptop', price: 720000},
+//     {id:3, name: 'oppo Phone', price: 12000},
+//     {id:4, name: 'Dell pro LepTop ', price: 22000},
+// ];
+// let sum = [];
+// for(let i = 0; i < someArrays.length; i++){
+//     sum = sum + i;
+//     console.log(someArrays[i]);
+// };
+
+// for(const someArray of someArrays){
+//     console.log(someArray);
+// }
+
+// function matchingArray(someArrays, searching){
+//     const matching = [];
+//     for(const someArray of someArrays){
+//         if(someArray.name.toLowerCase().includes(searching.toLowerCase())){
+//             matching.push(someArray);
+//         }
+//     }
+//    return matching;
+// }
+// const result = matchingArray(someArrays,'Leptop');
+// console.log(result);
