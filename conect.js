@@ -14,3 +14,33 @@ const doller = document.getElementById('doller');
 doller.style.backgroundColor = 'red';
 doller.style.margin = '10px';
 doller.style.borderRadius = '20px';
+
+
+function makeMe(){
+    document.body.style.backgroundColor = 'red';
+}
+function makeWhite(){
+    document.body.style.backgroundColor = 'white';
+}
+function makeYellow(){
+    document.body.style.backgroundColor = 'yellow';
+}
+const makeBlueBottom = document.getElementById('make-blue');
+    makeBlueBottom.onclick = makeBlue;
+
+function makeBlue(){
+    document.body.style.backgroundColor = 'blue';
+}
+
+const blackColor = document.getElementById('black-color');
+blackColor.onclick = function makeBlack(){
+    document.body.style.background = 'black';
+}
+
+// ---------------------------finer click event------------>>>>>>>>>
+
+document.getElementById('golden-rod').addEventListener('click',function(){
+    document.body.style.backgroundColor = 'goldenrod';
+})
+
+// -------------------------definetly user case------------->>>>>>>
