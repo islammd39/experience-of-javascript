@@ -44,3 +44,35 @@ document.getElementById('golden-rod').addEventListener('click',function(){
 })
 
 // -------------------------definetly user case------------->>>>>>>
+
+
+// -------========--------========form submit======--------======-------->>>>>
+
+// -------========--------========Add comment======--------======-------->>>>>
+
+
+document.getElementById('submit-form').addEventListener('click', function(){
+  const newComment = document.getElementById('new-comment');
+  const getComment = newComment.value;
+
+  const addComment = document.getElementById('add-comment');
+  const peragraph = document.createElement('p');
+  peragraph.innerText = getComment;
+  addComment.appendChild(peragraph);
+
+  newComment.value ='';
+
+})
+
+
+
+document.getElementById('my-form').addEventListener('click', function(){
+    console.log('how to be');
+
+});
+
+    // const myForm = document.getElementById('my-new-comment');
+    // const myValue  = myForm.value;
+   
+
+
