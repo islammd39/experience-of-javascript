@@ -45,5 +45,19 @@ section.innerHTML = `
 mainContainer.appendChild(sectionss);
 
 
+document.getElementById('my-form').addEventListener('click',function(){
+    const myNewComment = document.getElementById('my-new-comment');
+    const updateComment = myNewComment.value;
+    const insideAdd = document.getElementById('inside-add');
+    const addParagraph = document.createElement('p');
+    addParagraph.innerText = updateComment;
+    insideAdd.appendChild(addParagraph);
+    
+    myNewComment.value = '';
+});
+
+
+
+
 
 

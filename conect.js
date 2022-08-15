@@ -62,17 +62,12 @@ document.getElementById('submit-form').addEventListener('click', function(){
 
   newComment.value ='';
 
-})
-
-
-
-document.getElementById('my-form').addEventListener('click', function(){
-    console.log('how to be');
-
 });
 
-    // const myForm = document.getElementById('my-new-comment');
-    // const myValue  = myForm.value;
-   
+
+
+
+
+ 
 
 

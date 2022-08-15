@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form input practice</title>
+</head>
+
+<body>
+    <div>
+        <h3 id="is-delete">type of input</h3>
+    </div>
+    <div>
+        <button id="btn-type" disabled>delete</button>
+        <input type="text" name="" id="field-inside" placeholder="delete">
+    </div>
+
+
+
+    <script>
+      document.getElementById('btn-type').addEventListener('click',function(){
+        const isDelete = document.getElementById('is-delete');
+        isDelete.style.display = 'none';
+      });
+
+
+       document.getElementById('field-inside').addEventListener('keyup',function(event){
+        const text = event.target.value;
+        const btnType = document.getElementById('btn-type');
+        if (text === 'delete') {
+            btnType.removeAttribute('disabled');
+        }
+        else{
+            btnType.setAttribute('disabled',true);
+        }
+       });
+
+        
+        
+        
+        
+        // document.getElementById('btn-type').addEventListener('click', function(){
+        //     console.log('this is type')
+        // });
+
+        // document.getElementById('btn-type').addEventListener('click',function(){
+        //     console.log('this is type')
+        // })
+
+        // document.getElementById('btn-type').addEventListener('mouseenter',function(){
+        //     console.log('this is type')
+        // })
+
+
+
+        // document.getElementById('btn-type').addEventListener('mousemove',function(){
+        //     console.log('this is type')
+        // })
+
+
+        //  document.getElementById('field-inside').addEventListener('focus',function(){
+        //     console.log('this is type')
+        // })
+    </script>
+</body>
+
+</html>
