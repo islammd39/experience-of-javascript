@@ -20,27 +20,27 @@
 
 
     <script>
-      document.getElementById('btn-type').addEventListener('click',function(){
-        const isDelete = document.getElementById('is-delete');
-        isDelete.style.display = 'none';
-      });
+        document.getElementById('btn-type').addEventListener('click', function () {
+            const isDelete = document.getElementById('is-delete');
+            isDelete.style.display = 'none';
+        });
 
 
-       document.getElementById('field-inside').addEventListener('keyup',function(event){
-        const text = event.target.value;
-        const btnType = document.getElementById('btn-type');
-        if (text === 'delete') {
-            btnType.removeAttribute('disabled');
-        }
-        else{
-            btnType.setAttribute('disabled',true);
-        }
-       });
+        document.getElementById('field-inside').addEventListener('keyup', function (event) {
+            const text = event.target.value;
+            const btnType = document.getElementById('btn-type');
+            if (text === 'delete'){
+                btnType.removeAttribute('disabled');
+            } 
+            else {
+                btnType.setAttribute('disabled', true);
+            }
+        });
 
-        
-        
-        
-        
+
+
+
+
         // document.getElementById('btn-type').addEventListener('click', function(){
         //     console.log('this is type')
         // });
