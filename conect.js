@@ -108,24 +108,24 @@
 // console.log(expens);
 
 
-const phones = [
-    {name: 'poco-x2', price:25000},
-    {name: 'oppo', price:15000},
-    {name: 'vivo', price:20000},
-    {name: 'max-pro', price:55000}
-];
+// const phones = [
+//     {name: 'poco-x2', price:25000},
+//     {name: 'oppo', price:15000},
+//     {name: 'vivo', price:20000},
+//     {name: 'max-pro', price:55000}
+// ];
 
-function findOfPhone(device) {
-    let ofPrice = device[0];
-    for(let i = 0; i < device.length; i++){
-        const iteams = device[i];
-       if(iteams.price < ofPrice.price){
-          ofPrice = iteams
-       }
+// function findOfPhone(device) {
+//     let ofPrice = device[0];
+//     for(let i = 0; i < device.length; i++){
+//         const iteams = device[i];
+//        if(iteams.price < ofPrice.price){
+//           ofPrice = iteams
+//        }
           
-    }
-    return ofPrice; 
-}   
-const expens = findOfPhone(phones)
+//     }
+//     return ofPrice; 
+// }   
+// const expens = findOfPhone(phones)
 
-console.log(expens);
+// console.log(expens);
