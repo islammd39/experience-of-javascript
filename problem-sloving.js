@@ -11,5 +11,5 @@ const result = students.filter(student => student.avg >= 50 && student.fiftypars
 
 result.map(pro => {
     const {name,email} =pro;
-    console.log(name)
+    console.log(name,email)
 })
