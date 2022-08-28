@@ -26,8 +26,3 @@
 //     isOpen:true,
 //     new:false,
 // };
-
-// const shopjn = JSON.stringify(shop);
-// const phs = JSON.parse(shopjn)
-
-// console.log(phs);

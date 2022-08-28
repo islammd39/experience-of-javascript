@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>post web site</title>
+
+    <style>
+        .color {
+            background-color: aqua;
+        }
+    </style>
 </head>
+
 <body>
+    <button onclick="getData()">click on data</button>
+
+    <button onclick="userData()">user data</button>
+
+    <button onclick="loadData()">load Data</button>
+
+    <div class="user-cls">
+        <ol id="user-id">
+
+        </ol>
+    </div>
+
+    <main>
+        <h2>its our post</h2>
+        <section>
+            <div id="post-create">
+
+            </div>
+        </section>
+    </main>
+    <article>
+        <section>
+            <blockquote id="quote">
+
+            </blockquote>
+            <div>
+<button onclick="loadAdd()">click on get quote</button>
+            </div>
+        </section>
+    </article>
 
 
-    
+    <script src="kanye.js"></script>
     <script src="featch.js"></script>
 </body>
+
 </html>
